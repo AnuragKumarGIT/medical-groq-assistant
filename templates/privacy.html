@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy - MediGroq Assistant</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <link rel="icon" type="image/png" href="{{ url_for('static', filename='images/logo.png') }}">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <img src="{{ url_for('static', filename='images/logo11.jpg') }}" alt="MediGroq Logo">
+                <h1>MediGroq Assistant</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/about">About</a></li>
+                    <li><a href="/privacy" class="active">Privacy</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="page-content">
+            <div class="container">
+                <h2>Privacy Policy</h2>
+                
+                <div class="content-block">
+                    <p>Last Updated: April 27, 2025</p>
+                    <p>This Privacy Policy describes how MediGroq Assistant ("we", "our", or "us") collects, uses, and discloses your information when you use our medical assistant application ("the Service").</p>
+                </div>
+                
+                <div class="content-block">
+                    <h3>Information We Collect</h3>
+                    <h4>Information You Provide</h4>
+                    <p>When using our Service, you may provide:</p>
+                    <ul>
+                        <li>Text describing medical symptoms or questions</li>
+                        <li>Images of visible medical symptoms</li>
+                        <li>Voice recordings for transcription of medical questions</li>
+                    </ul>
+                    
+                    <h4>Technical Information</h4>
+                    <p>We automatically collect certain technical information when you use our Service, including:</p>
+                    <ul>
+                        <li>Device information (browser type, operating system)</li>
+                        <li>Usage data (interactions with the application)</li>
+                        <li>IP address and approximate location</li>
+                    </ul>
+                </div>
+                
+                <div class="content-block">
+                    <h3>How We Use Your Information</h3>
+                    <p>We use the information we collect to:</p>
+                    <ul>
+                        <li>Provide and maintain our Service</li>
+                        <li>Process and respond to your medical queries</li>
+                        <li>Improve our AI models and the accuracy of responses</li>
+                        <li>Monitor and analyze usage patterns</li>
+                        <li>Detect and prevent technical issues or abuse</li>
+                    </ul>
+                </div>
+                
+                <div class="content-block">
+                    <h3>Data Security and Retention</h3>
+                    <p>We implement appropriate security measures to protect your personal information. However, no method of transmission over the Internet or electronic storage is 100% secure.</p>
+                    <p>By default, we retain your data as follows:</p>
+                    <ul>
+                        <li>Text queries: 30 days</li>
+                        <li>Uploaded images: 7 days</li>
+                        <li>Voice recordings: Deleted immediately after processing</li>
+                    </ul>
+                </div>
+                
+                <div class="content-block">
+                    <h3>Data Sharing</h3>
+                    <p>We may share your information with:</p>
+                    <ul>
+                        <li><strong>Service Providers:</strong> Companies that help us deliver our services, including Groq for AI processing</li>
+                        <li><strong>Legal Requirements:</strong> When required by law or to protect rights and safety</li>
+                    </ul>
+                    <p>We do NOT:</p>
+                    <ul>
+                        <li>Sell your personal information</li>
+                        <li>Share your medical data with third-party advertisers</li>
+                        <li>Use your data to build marketing profiles</li>
+                    </ul>
+                </div>
+                
+                <div class="content-block">
+                    <h3>Your Rights</h3>
+                    <p>Depending on your location, you may have certain rights regarding your personal information, including:</p>
+                    <ul>
+                        <li>Access to your data</li>
+                        <li>Correction of inaccurate data</li>
+                        <li>Deletion of your data</li>
+                        <li>Restriction of processing</li>
+                        <li>Data portability</li>
+                    </ul>
+                    <p>To exercise these rights, please contact us at privacy@medigroq.example.com.</p>
+                </div>
+                
+                <div class="content-block">
+                    <h3>Changes to This Policy</h3>
+                    <p>We may update this Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy on this page and updating the "Last Updated" date.</p>
+                </div>
+                
+                <div class="content-block">
+                    <h3>Contact Us</h3>
+                    <p>If you have any questions about this Privacy Policy, please contact us at:</p>
+                    <p>privacy@medigroq.example.com</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 MediGroq Assistant. Powered by Groq.</p>
+            <p class="disclaimer">This application is for informational purposes only and is not a substitute for professional medical advice, diagnosis, or treatment.</p>
+            <div class="footer-links">
+                <a href="/about">About</a>
+                <a href="/privacy">Privacy Policy</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="{{ url_for('static', filename='js/main.js') }}"></script>
+</body>
+</html>

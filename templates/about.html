@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About MediGroq Assistant</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <link rel="icon" type="image/png" href="{{ url_for('static', filename='images/logo.png') }}">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <img src="{{ url_for('static', filename='images/logo11.jpg') }}" alt="MediGroq Logo">
+                <h1>MediGroq Assistant</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/about" class="active">About</a></li>
+                    <li><a href="/privacy">Privacy</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="page-content">
+            <div class="container">
+                <h2>About MediGroq Assistant</h2>
+                
+                <div class="content-block">
+                    <h3>Our Mission</h3>
+                    <p>MediGroq Assistant aims to improve healthcare accessibility by providing reliable preliminary medical information through cutting-edge AI technology. We leverage Groq's ultra-fast, low-latency inference capabilities to deliver responsive and accurate medical information to users everywhere.</p>
+                </div>
+                <div class="content-block">
+                    <h3>What We Offer</h3>
+                    <p>Our multimodal approach combines text, image, and voice capabilities to provide a comprehensive preliminary medical information service:</p>
+                    <ul>
+                        <li><strong>Text-based Medical Assistant:</strong> Describe symptoms and get information about potential causes and recommended actions</li>
+                        <li><strong>Image Analysis:</strong> Upload images of visible symptoms for AI-powered assessment</li>
+                        <li><strong>Voice Interface:</strong> Speak naturally to describe your medical concerns</li>
+                    </ul>
+                </div>
+                
+                <div class="content-block">
+                    <h3>Powered by Groq</h3>
+                    <p>MediGroq is built on Groq's revolutionary AI inference technology, which delivers:</p>
+                    <ul>
+                        <li>Ultra-fast response times for real-time interaction</li>
+                        <li>Low-latency processing for a smooth user experience</li>
+                        <li>High-performance multimodal capabilities across text, image, and audio</li>
+                        <li>Predictable and deterministic execution for reliable results</li>
+                    </ul>
+                </div>
+                
+                <div class="content-block important-notice">
+                    <h3>Important Medical Disclaimer</h3>
+                    <p>MediGroq Assistant is designed to provide general information only and is not intended to replace professional medical advice, diagnosis, or treatment. The information provided should not be used for diagnosing or treating a health problem or disease.</p>
+                    <p>Always consult with a qualified healthcare provider for:</p>
+                    <ul>
+                        <li>Diagnosis of medical conditions</li>
+                        <li>Treatment recommendations</li>
+                        <li>Answers to personal medical questions</li>
+                        <li>Medical emergencies</li>
+                    </ul>
+                    <p>If you think you may have a medical emergency, call your doctor or emergency services immediately.</p>
+                </div>
+                
+                <div class="content-block">
+                    <h3>How We Use AI</h3>
+                    <p>MediGroq Assistant uses advanced large language models and multimodal AI to:</p>
+                    <ul>
+                        <li>Process natural language descriptions of symptoms</li>
+                        <li>Analyze medical images for preliminary assessment</li>
+                        <li>Transcribe spoken descriptions into text</li>
+                        <li>Generate informative responses based on medical knowledge</li>
+                    </ul>
+                    <p>Our AI models are designed to provide helpful information while clearly acknowledging their limitations and the importance of professional medical care.</p>
+                </div>
+                
+                <div class="content-block">
+                    <h3>Contact Information</h3>
+                    <p>For questions or feedback about MediGroq Assistant, please contact us at:</p>
+                    <p>contact@medigroq.example.com</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 MediGroq Assistant. Powered by Groq.</p>
+            <p class="disclaimer">This application is for informational purposes only and is not a substitute for professional medical advice, diagnosis, or treatment.</p>
+            <div class="footer-links">
+                <a href="/about">About</a>
+                <a href="/privacy">Privacy Policy</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="{{ url_for('static', filename='js/main.js') }}"></script>
+</body>
+</html>

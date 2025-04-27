@@ -1,0 +1,150 @@
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MediGroq Assistant</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <link rel="icon" type="image/png" href="{{ url_for('static', filename='images/logo.png') }}">
+    <meta name="description" content="MediGroq - AI-powered medical assistant for preliminary health information and advice">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <img src="{{ url_for('static', filename='images/logo11.jpg') }}" alt="MediGroq Logo">
+                <h1>MediGroq Assistant</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="/" class="active">Home</a></li>
+                    <li><a href="/about">About</a></li>
+                    <li><a href="/privacy">Privacy</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="container">
+                <h2>Your AI Medical Assistant</h2>
+                <p>Get preliminary health information powered by Groq's advanced AI technology</p>
+                <div class="disclaimer-banner">
+                    <p><strong>Important:</strong> MediGroq provides information only and does not replace professional medical care. Always consult a healthcare provider for medical concerns.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="interaction">
+            <div class="container">
+                <div class="tabs">
+                    <button class="tab-btn active" data-tab="text">Text</button>
+                    <button class="tab-btn" data-tab="image">Image</button>
+                    <button class="tab-btn" data-tab="voice">Voice</button>
+                </div>
+
+                <div class="tab-content">
+                    <!-- Text Interaction -->
+                    <div id="text" class="tab-pane active">
+                        <h3>Describe Your Symptoms or Ask a Medical Question</h3>
+                        <div class="input-container">
+                            <textarea id="text-query" placeholder="Example: I've been experiencing headaches and fatigue for the past three days. What might be causing this?"></textarea>
+                            <button id="send-text">Get Information</button>
+                        </div>
+                    </div>
+
+                    <!-- Image Interaction -->
+                    <div id="image" class="tab-pane">
+                        <h3>Upload an Image for Analysis</h3>
+                        <p class="subtitle">Upload images of skin conditions, wounds, rashes, or other visible symptoms</p>
+                        <div class="input-container">
+                            <div class="file-upload">
+                                <label for="image-upload">Choose Image</label>
+                                <input type="file" id="image-upload" accept="image/*">
+                                <span id="file-name">No file selected</span>
+                            </div>
+                            <textarea id="image-description" placeholder="Optional: Describe what you're showing in the image (e.g., 'This rash appeared yesterday and is itchy')"></textarea>
+                            <button id="analyze-image" disabled>Analyze Image</button>
+                        </div>
+                        <div id="image-preview-container" class="hidden">
+                            <h4>Image Preview</h4>
+                            <img id="image-preview" src="#" alt="Preview">
+                        </div>
+                    </div>
+
+                    <!-- Voice Interaction -->
+                    <div id="voice" class="tab-pane">
+                        <h3>Speak Your Symptoms or Questions</h3>
+                        <div class="input-container">
+                            <div class="voice-controls">
+                                <button id="start-recording" class="voice-btn">
+                                    <span class="icon">🎤</span> Start Recording
+                                </button>
+                                <button id="stop-recording" class="voice-btn" disabled>
+                                    <span class="icon">⏹️</span> Stop Recording
+                                </button>
+                            </div>
+                            <div id="recording-status">Not recording</div>
+                            <div id="transcription-container" class="hidden">
+                                <h4>Your Question</h4>
+                                <p id="transcription-text"></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="response-container" class="hidden">
+                    <h3>Medical Information</h3>
+                    <div id="response-content"></div>
+                </div>
+            </div>
+        </section>
+
+        <section class="features">
+            <div class="container">
+                <h2>Features</h2>
+                <div class="feature-grid">
+                    <div class="feature-card">
+                        <div class="icon">💬</div>
+                        <h3>Text Consultation</h3>
+                        <p>Describe your symptoms or ask medical questions in detail</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="icon">🖼️</div>
+                        <h3>Visual Analysis</h3>
+                        <p>Upload images of visible symptoms for AI assessment</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="icon">🎤</div>
+                        <h3>Voice Interface</h3>
+                        <p>Speak naturally to describe your symptoms or concerns</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="icon">⚡</div>
+                        <h3>Ultra-Fast Response</h3>
+                        <p>Powered by Groq's high-performance AI technology</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 MediGroq Assistant. Powered by Groq.</p>
+            <p class="disclaimer">This application is for informational purposes only and is not a substitute for professional medical advice, diagnosis, or treatment.</p>
+            <div class="footer-links">
+                <a href="/about">About</a>
+                <a href="/privacy">Privacy Policy</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="{{ url_for('static', filename='js/main.js') }}"></script>
+</body>
+</html>
