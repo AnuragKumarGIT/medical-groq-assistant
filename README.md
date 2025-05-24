@@ -1,4 +1,3 @@
-![github-submission-banner](https://github.com/user-attachments/assets/a1493b84-e4e2-456e-a791-ce35ee2bcf2f)
 
 # 🚀 MediGroq Assistant
 
@@ -6,9 +5,10 @@
 
 ---
 
-## 📌 Problem Statement
+## 📌 Tracks
 
-**Problem Statement 1 – Weave AI magic with Groq**
+**AI - Leverage Sui to build agents and apps at the
+intersection of AI and decentralized technology.**
 
 ---
 
@@ -22,10 +22,7 @@ The project solves the real-world problem of delayed access to basic medical inf
 
 ## 🧠 Team & Approach
 
-### Team Name:  
-`WARRIOR`
-
-### Team Members:  
+### Team  
 - ANURAG KUMAR ([GitHub](https://github.com/AnuragKumarGIT) / https://x.com/Akum41841 / Team Leader)  
 
 
@@ -68,14 +65,6 @@ The project solves the real-world problem of delayed access to basic medical inf
 ## 📽️ Demo & Deliverables
 
 - **Demo Video Link:** [[Paste YouTube or Loom link here](https://youtu.be/HW4giUddpAE)]   
-
----
-
-## ✅ Tasks & Bonus Checklist
-
-- [✅] **All members of the team completed the mandatory task - Followed at least 2 of our social channels and filled the form** (Details in Participant Manual)  
-- [✅] **All members of the team completed Bonus Task 1 - Sharing of Badges and filled the form (2 points)**  (Details in Participant Manual)
-- [✅] **All members of the team completed Bonus Task 2 - Signing up for Sprint.dev and filled the form (3 points)**  (Details in Participant Manual)
 
 ---
 
