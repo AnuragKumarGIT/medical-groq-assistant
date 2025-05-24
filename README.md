@@ -1,5 +1,5 @@
 
-# 🚀 MediGroq Assistant
+# 🚀 MediAI Assistant
 
 > AI-powered medical assistant leveraging Groq's high-performance inference capabilities for lightning-fast healthcare insights.
 
@@ -14,7 +14,7 @@ intersection of AI and decentralized technology.**
 
 ## 🎯 Objective
 
-MediGroq Assistant addresses the challenge of accessible preliminary medical information by providing users with a platform to interact with medical AI through natural language conversations. It serves individuals seeking immediate insights about health concerns through text-based interactions powered by Groq's ultra-fast language models.
+MediAI Assistant addresses the challenge of accessible preliminary medical information by providing users with a platform to interact with medical AI through natural language conversations. It serves individuals seeking immediate insights about health concerns through text-based interactions powered by Groq's ultra-fast language models.
 
 The project solves the real-world problem of delayed access to basic medical information, especially in areas with limited healthcare access. By leveraging Groq's ultra-fast inference capabilities, users can get evidence-based preliminary guidance while being appropriately directed toward professional healthcare when needed.
 
@@ -70,8 +70,8 @@ The project solves the real-world problem of delayed access to basic medical inf
 ### Local Setup:
 ```bash
 # Clone the repo
-git clone https://github.com/your-team/medigroq-assistant
-cd medigroq-assistant
+git clone https://github.com/your-team/MediAI-assistant
+cd MediAI-assistant
 
 # Create and activate virtual environment
 python -m venv venv
@@ -119,7 +119,7 @@ Access the application at `http://127.0.0.1:5000/` in your web browser.
 
 ## 🏁 Final Words
 
-Creating MediGroq Assistant showcased the incredible potential of Groq's fast inference capabilities in healthcare applications. The speed at which medical information can be processed and delivered creates new possibilities for health information access. Our team faced significant challenges in balancing helpful information with responsible medical guidance, ensuring we maintained ethical standards throughout. We're excited about the potential impact this technology could have in augmenting healthcare information access globally, while always emphasizing the importance of professional medical care.
+Creating MediAI Assistant showcased the incredible potential of Groq's fast inference capabilities in healthcare applications. The speed at which medical information can be processed and delivered creates new possibilities for health information access. Our team faced significant challenges in balancing helpful information with responsible medical guidance, ensuring we maintained ethical standards throughout. We're excited about the potential impact this technology could have in augmenting healthcare information access globally, while always emphasizing the importance of professional medical care.
 
 ## Disclaimer
 
