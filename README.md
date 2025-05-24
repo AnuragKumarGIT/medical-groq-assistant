@@ -42,14 +42,6 @@ The project solves the real-world problem of delayed access to basic medical inf
 - APIs: Groq API
 - Hosting: Local development with potential for cloud deployment
 
-### Sponsor Technologies Used (if any):
-- [✅] **Groq:** Used Groq's LLM API for ultra-fast medical text analysis and response generation
-- [ ] **Monad:** _Your blockchain implementation_  
-- [ ] **Fluvio:** _Real-time data handling_  
-- [ ] **Base:** _AgentKit / OnchainKit / Smart Wallet usage_  
-- [ ] **Screenpipe:** _Screen-based analytics or workflows_  
-- [ ] **Stellar:** _Payments, identity, or token usage_
-
 ---
 
 ## ✨ Key Features
