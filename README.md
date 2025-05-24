@@ -1,5 +1,5 @@
 
-# 🚀 MediAI Assistant
+# 🚀MediGroq Assistant
 
 > AI-powered medical assistant leveraging Groq's high-performance inference capabilities for lightning-fast healthcare insights.
 
@@ -71,7 +71,7 @@ The project solves the real-world problem of delayed access to basic medical inf
 ```bash
 # Clone the repo
 git clone https://github.com/your-team/MediAI-assistant
-cd MediAI-assistant
+cdMediGroq-assistant
 
 # Create and activate virtual environment
 python -m venv venv
@@ -119,7 +119,7 @@ Access the application at `http://127.0.0.1:5000/` in your web browser.
 
 ## 🏁 Final Words
 
-Creating MediAI Assistant showcased the incredible potential of Groq's fast inference capabilities in healthcare applications. The speed at which medical information can be processed and delivered creates new possibilities for health information access. Our team faced significant challenges in balancing helpful information with responsible medical guidance, ensuring we maintained ethical standards throughout. We're excited about the potential impact this technology could have in augmenting healthcare information access globally, while always emphasizing the importance of professional medical care.
+CreatingMediGroq Assistant showcased the incredible potential of Groq's fast inference capabilities in healthcare applications. The speed at which medical information can be processed and delivered creates new possibilities for health information access. Our team faced significant challenges in balancing helpful information with responsible medical guidance, ensuring we maintained ethical standards throughout. We're excited about the potential impact this technology could have in augmenting healthcare information access globally, while always emphasizing the importance of professional medical care.
 
 ## Disclaimer
 
