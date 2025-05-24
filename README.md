@@ -56,7 +56,7 @@ The project solves the real-world problem of delayed access to basic medical inf
 
 ## 📽️ Demo & Deliverables
 
-- **Demo Video Link:** [[Paste YouTube or Loom link here](https://youtu.be/HW4giUddpAE)]   
+- **Demo Video Link:** [[Link](https://youtu.be/HW4giUddpAE)]   
 
 ---
 
